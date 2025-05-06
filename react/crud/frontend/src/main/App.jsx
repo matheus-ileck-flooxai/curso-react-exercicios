@@ -14,7 +14,7 @@ export default props =>
         <div className='app'>
             <Logo />
             <Nav />
-            <Routes/>
+            <Routes />
             <Footer />
         </div>
     </BrowserRouter>

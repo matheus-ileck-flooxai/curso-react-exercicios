@@ -1,5 +1,6 @@
 aside.logo{
-    background-color: #f5f5f5;
+    background-color: #000;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,5 +8,14 @@ aside.logo{
 }
 
 aside.logo img{
+    padding: 0 15px;
     width: 100%;
+}
+
+@media(max-width:576px){
+    aside.logo img{
+        width: 156px;
+
+    }
+  
 }
